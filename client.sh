@@ -6,7 +6,8 @@ usage () {
     echo "                                              "
     echo "Latency test Script - Client side.            "
     echo "                                              "
-    echo "Usage: $0 <Server side IP>					"
+    echo "Usage: $0 <Server side IP>			"
+    echo "       echo start > pipe                      "
     echo "                                              "
 }
 
