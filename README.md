@@ -16,7 +16,7 @@ Then run client side with server side IP
 $ ./client.sh <Server IP>
 ```
 
-Finally send start command via pipe.
+Finally send start command via pipe at the client side.
 
 ```sh
 $ echo start > pipe
