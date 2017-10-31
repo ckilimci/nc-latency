@@ -7,7 +7,7 @@ usage () {
     echo "Latency test Script - Server side.                    "
     echo "                                                      "
     echo "Usage: $0                                             "
-    echo "After clinet started, write \"start\" to created pipe "
+    echo "After client started, write \"start\" to created pipe "
     echo "                                                      "
 }
 
