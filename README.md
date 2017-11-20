@@ -1,5 +1,6 @@
 # nc-latency
-Measure latency with netcat
+
+Measure latency with netcat.
 
 Usage:
 ------
@@ -10,13 +11,13 @@ First run server side:
 $ ./server.sh
 ```
 
-Then run client side with server side IP
+Then run client side with server side IP:
 
 ```sh
 $ ./client.sh <Server IP>
 ```
 
-Finally send start command via pipe at the client side.
+Finally send start command via pipe at the client side:
 
 ```sh
 $ echo start > pipe
