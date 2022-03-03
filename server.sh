@@ -54,6 +54,6 @@ do
     else
         echo "Received $line"
     fi
-done < <((tail -f ${PIPE}) | nc -v -q -1 -l ${PORT})
+done < <((tail -f ${PIPE}) | nc -v -l ${PORT})
 rm ${PIPE}
 echo "Good bye"

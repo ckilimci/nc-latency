@@ -36,6 +36,6 @@ do
     else
         echo "Received $line"
     fi
-done < <((tail -f ${PIPE}) | nc -v -q -1 ${IP} ${PORT} && echo "ready" > ${PIPE})
+done < <((tail -f ${PIPE}) | nc -v ${IP} ${PORT} && echo "ready" > ${PIPE})
 rm ${PIPE}
 echo "Good bye"
